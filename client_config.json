@@ -1,0 +1,12 @@
+{
+    "server": "77.131.12.6",
+    "server_port": 31763,
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "password": "MySecurePassword123!",
+    "method": "chacha20-ietf-poly1305",
+    "timeout": 600,
+    "mode": "tcp_and_udp",
+    "no_delay": true,
+    "fast_open": true
+}
