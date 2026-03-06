@@ -64,6 +64,8 @@ else
 EOF
     echo "Server config saved to config.json"
     echo "Run: bash start_server.sh"
+    echo ""
+    python3 "$DIR/get_client_link.sh"
 fi
 
 echo ""
